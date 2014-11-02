@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.googlesource.gerrit.plugins.gerritscore;
+package com.googlesource.gerrit.plugins.testplugin;
 
-import com.google.gerrit.sshd.PluginCommandModule;
+import com.google.inject.AbstractModule;
 
-class SshModule extends PluginCommandModule {
+class Module extends AbstractModule {
   @Override
-  protected void configureCommands() {
-    // command("my-command").to(MyCommand.class);
+  protected void configure() {
+    // TODO
   }
 }
